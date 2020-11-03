@@ -89,7 +89,7 @@
       <li>
         <a href="/wireless">
           
-          <i class="fas fa-music" style="margin-top: -20px; zoom: 0.6;"></i>
+          <i class="fas fa-wifi" style="margin-top: -20px; zoom: 0.6;"></i>
           
           <span>Wireless</span>
         </a>
@@ -98,7 +98,7 @@
       <li>
         <a href="/plug">
           
-          <i class="fas fa-film" style="margin-top: -20px; zoom: 0.6;"></i>
+          <i class="fas fa-inbox" style="margin-top: -20px; zoom: 0.6;"></i>
           
           <span>Plug</span>
         </a>
@@ -215,7 +215,7 @@
 
                   <a href="/wireless " style="margin-left:75px">
 				  
-				   <i class="fa fas fa-music" style="position: absolute;left:50px" ></i>
+				   <i class="fa fas fa-wifi" style="position: absolute;left:50px" ></i>
 			      
 		          <span>Wireless</span>
                   </a>
@@ -225,7 +225,7 @@
 
                   <a href="/plug " style="margin-left:75px">
 				  
-				   <i class="fa fas fa-film" style="position: absolute;left:50px" ></i>
+				   <i class="fa fas fa-inbox" style="position: absolute;left:50px" ></i>
 			      
 		          <span>Plug</span>
                   </a>
@@ -337,6 +337,13 @@
 
 <div class="carousel carousel-slider center index-cover" data-indicators="true" style="margin-top: -64px;">
     
+        <div id="prev-cover" class="left waves-effect carousel-control">
+            <i class="icon fa fa-angle-left"></i>
+        </div>
+        <div id="next-cover" class="right waves-effect carousel-control">
+            <i class="icon fa fa-angle-right"></i>
+        </div>
+    
 
     <div class="carousel-item red white-text bg-cover about-cover">
         <div class="container">
@@ -421,6 +428,33 @@
     </div>
 
     
+        
+
+        
+            
+            <div class="carousel-item amber white-text carousel-post bg-cover"
+                 style="background-image: url('/medias/featureimages/%E4%B8%80.png');">
+                <div class="container">
+                    <div class="row">
+                        <div class="col s10 offset-s1">
+                            <div class="title center-align">解决方案-插拔式</div>
+                            <div class="description center-align">
+                                
+                                    解决方案:我们为用户提供了简便，更低成本且高效的解决方案。
+                                
+                            </div>
+                            <div class="cover-btns">
+                                <a href="/2020/10/02/plug/" class="waves-effect waves-light btn"
+                                   target="_blank">
+                                    <i class="icon fa fa-eye fa-fw"></i>阅读更多
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+    
 </div>
 
 <script>
@@ -441,7 +475,7 @@
         }
 
         coverSlider.carousel({
-            duration: Number('120'),
+            duration: Number('300'),
             fullWidth: true,
             indicators: 'true' === 'true',
             onCycleTo() {
@@ -459,7 +493,7 @@
         let autoCarousel = function () {
             carouselIntervalId = setInterval(function () {
                 coverSlider.carousel('next');
-            }, 300);
+            }, 10000);
         };
         autoCarousel();
         
@@ -536,29 +570,20 @@
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2020/10/02/test/">
+                    <a href="/2020/10/02/plug/">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="新型电子标签内部芯片介绍">
+                            <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="解决方案-插拔式">
                             
-                            <span class="card-title">新型电子标签内部芯片介绍</span>
+                            <span class="card-title">解决方案-插拔式</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                ###Hello World!
-一级标题代码测试：```pyprint(“Hello”)```
-注意：这里因为我放在md文件中的，所以加上了\，不解析```，实际测试时请去掉\。
-图片测试：
-
-引用测试：
-
-这是一条引用
-
-二级标题无序列表
+                                解决方案:我们为用户提供了简便，更低成本且高效的解决方案。
                             
                         </div>
                         <div class="publish-info">
@@ -567,13 +592,29 @@
                             </span>
                             <span class="publish-author">
                                 
-                                <i class="fas fa-user fa-fw"></i>
-                                LongYorke
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/products/" class="post-category">
+                                    products
+                                </a>
+                                
                                 
                             </span>
                         </div>
                     </div>
 
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/">
+                            <span class="chip bg-color">解决方案</span>
+                        </a>
+                        
+                        <a href="/tags/%E5%8F%AF%E6%8F%92%E6%8B%94%E5%BC%8F/">
+                            <span class="chip bg-color">可插拔式</span>
+                        </a>
+                        
+                    </div>
                     
                 </div>
             </div>

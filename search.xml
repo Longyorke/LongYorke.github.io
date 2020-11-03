@@ -4,13 +4,27 @@
   
     
     <entry>
-      <title>新型电子标签内部芯片介绍</title>
-      <link href="2020/10/02/test/"/>
-      <url>2020/10/02/test/</url>
+      <title>解决方案-插拔式</title>
+      <link href="2020/10/02/plug/"/>
+      <url>2020/10/02/plug/</url>
       
-        <content type="html"><![CDATA[<p>###Hello World!</p><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><p>代码测试：<br>```py<br>print(“Hello”)<br>```</p><p>注意：这里因为我放在md文件中的，所以加上了\，不解析```，实际测试时请去掉\。</p><p>图片测试：</p><p><img src="https://www.cugb.edu.cn/u/cms/www/202010/05082142uo3o.jpg"></p><p>引用测试：</p><blockquote><p>这是一条引用</p></blockquote><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><p>无序列表测试：</p><ul><li>哈哈</li><li>嘿嘿</li><li>吼吼</li></ul><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4>]]></content>
+        <content type="html"><![CDATA[<h1 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h1><blockquote><p>我们为用户提供了简便，更低成本且高效的解决方案。</p></blockquote><h1 id="系统组成方案"><a href="#系统组成方案" class="headerlink" title="系统组成方案"></a>系统组成方案</h1><p>我们的电子标识系统主要由上位机管理系统，基座模块以及电子纸模块三大模块构成。为提高工作效率<br><img src="/medias/featureimages/%E9%9B%B6.png"></p><h1 id="系统构架"><a href="#系统构架" class="headerlink" title="系统构架"></a>系统构架</h1><p>我们设计的电子价签的系统原理是：首先数据库（excel商品信息目录）由计算机通过上位机软件调用，上位机将通过蓝牙将信息传输到基座，再通过type-c接口传输到电子价签，从而达到修改信息的目的。为提高工作效率，在（促销活动时）进行批量商品信息更改可通过扫码枪扫描条形码以调用相同商品信息数据。 </p><p><img src="/medias/featureimages/%E4%B8%80.png"></p><h1 id="上位机系统"><a href="#上位机系统" class="headerlink" title="上位机系统"></a>上位机系统</h1><p>通过调用数据库更新数据，数据不易丢失<br>按需求配置商品属性<br>电子价签样式绘制预览功能<br>可修改条形码对应商品信息，提高条形码利用率</p><p>###Hello World!</p><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><p>代码测试：<br>```py<br>print(“Hello”)<br>```</p><p>注意：这里因为我放在md文件中的，所以加上了\，不解析```，实际测试时请去掉\。</p><p>图片测试：</p><p><img src="https://www.cugb.edu.cn/u/cms/www/202010/05082142uo3o.jpg"></p><p>引用测试：</p><blockquote><p>这是一条引用</p></blockquote><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><p>无序列表测试：</p><ul><li>哈哈</li><li>嘿嘿</li><li>吼吼</li></ul><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4>]]></content>
       
       
+      <categories>
+          
+          <category> products </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 解决方案 </tag>
+            
+            <tag> 可插拔式 </tag>
+            
+        </tags>
       
     </entry>
     
